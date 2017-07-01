@@ -71,9 +71,9 @@ d3.csv("Map3.csv", function(error, data) {
     y.domain([0, d3.max(data, function(d) { return d.timeslot; })]);
 
     // Add the valueline path.
-    svg.append("path")
-        .attr("class", "line")
-        .attr("d", valueline(data));
+    // svg.append("path")
+    //     .attr("class", "line")
+    //     .attr("d", valueline(data));
 
     // Add the scatterplot
     svg.selectAll("dot")

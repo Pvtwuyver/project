@@ -7,7 +7,7 @@ import json
 import csv
 
 # get data per day
-with open("Data/sensor_data_per_timeslot.json", 'r') as infile:
+with open("sensor_data_per_timeslot.json", 'r') as infile:
     data = json.load(infile)
 
 # initialize dict for keeping track of counts
@@ -50,7 +50,7 @@ for day in days:
     count = []
 
 # write to csv file
-with open("Data/busyness_per_day.csv", 'w') as outfile:
+with open("busyness_per_day.csv", 'w') as outfile:
     spamwriter = csv.writer(outfile, delimiter=' ',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for key, value in data_count.items():

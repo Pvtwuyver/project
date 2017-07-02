@@ -5,8 +5,8 @@ Write csv file of sensor data to json per car timeslot.
 import csv
 import json
 
-INFILE = "Data/sensor_data.csv"
-OUTFILE = open("Data/sensor_data_per_timeslot.json", "w")
+INFILE = "sensor_data.csv"
+OUTFILE = open("sensor_data_per_timeslot.json", "w")
 
 
 def convert2json():

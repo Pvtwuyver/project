@@ -141,6 +141,8 @@ function zoomed() {
 function type(d) {
   d.day = parseday(d.day);
   d.timeslot = +d.timeslot;
+  if (d.timeslot > 17)
+            d.timeslot = 0;
   return d;
 }
 

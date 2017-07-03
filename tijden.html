@@ -87,6 +87,8 @@ d3.csv("Map3.csv", function(error, data) {
     data.forEach(function(d) {
         d.day = parseday(d.day);
         d.timeslot = +d.timeslot;
+        if (d.timeslot > 17)
+            d.timeslot = 0;
     });
 
     // Scale the range of the data

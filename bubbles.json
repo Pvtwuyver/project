@@ -1,0 +1,55 @@
+{
+ "name": "Media en Informatie",
+ "children": [
+  {
+   "name": "Media en Informatie ",
+   "children": [
+    {
+     "name": "Jaar 1",
+     "children": [
+          {"name": "Mediacultuur",
+          "children": [
+          {"name": "Mediacultuur 1", "size": 7.60},
+          {"name": "Mediacultuur 2", "size": 7.50}
+         ]},
+      {"name": "Information of the Digital", "size": 7.60},
+      {"name": "Informatiemethoden", "size": 7.80},
+      {"name": "Mediageschiedenis", "size": 8.60},
+      {"name": "Mediatheorie", "size": 8.30}
+     ]
+    },
+    {
+     "name": "Jaar 2",
+     "children": [
+          {"name": "Jaar 2",
+          "children": [
+          {"name": "Archiefwetenschap", "size": 7.50},
+          {"name": "Alomtegenwoordige informatie", "size": 8.20},
+          {"name": "Zoeken", "size": 8.50},
+          {"name": "Wetenschapsfilosofie", "size": 7.00},
+          {"name": "Mediacultuur", "size": 8.50},
+          {"name": "Coding the Humanities", "size": 8.20},
+          {"name": "From objects to Data", "size": 7.30}
+         ]},
+      {"name": "Contemporary Movie Heroes in Classical Filmgenres", "size": 8.00}
+     ]
+    },
+    {
+     "name": "Keuzevakken en scriptie",
+     "children": [
+      {"name": "Het schrijven van Kritieken", "size": 7.60},
+      {"name": "Scriptie", "size": 8.50},
+      {"name": "Minor Programmeren",
+     "children": [
+      {"name": "Programeren 1", "size": 9.00},
+      {"name": "Programmeren 2", "size": 7.50},
+      {"name": "Dataprocessing", "size": 8.50},
+      {"name": "Heuristieken", "size": 8.00},
+      {"name": "Programmeerproject", "size": 8.00}
+     ]}
+     ]
+    }
+   ]
+  }
+ ]
+}

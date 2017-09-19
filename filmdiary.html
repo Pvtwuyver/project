@@ -125,6 +125,9 @@ var tooltip = d3.select("body").append("div")
       .attr("cy", yMap)
       .style("fill", function(d) { return color(cValue(d));}) 
       .on("mouseover", function(d) {
+
+d3.select(this).attr("r", 10).style("fill", "red");
+
           tooltip.transition()
                .duration(200)
                .style("opacity", .9);
@@ -133,6 +136,8 @@ var tooltip = d3.select("body").append("div")
                .style("top", (d3.event.pageY - 28) + "px");
       })
       .on("mouseout", function(d) {
+
+        d3.select(this).attr("r", 3.5).style("fill", function(d) { return color(cValue(d));});
           tooltip.transition()
                .duration(500)
                .style("opacity", 0);
